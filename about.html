@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Countries</title>
+</head>
+<body>
+    <section class="top" id="light">
+        <h4 class="top-text">Where in the world ?</h4>
+        <p class="dark-mode"><i class="far fa-moon"></i>Dark Mode</p>
+    </section>
+    <section class="search">   
+         <a href="index.html" class="btn"><i class="fa fa-arrow-left"></i>Back</a>
+    </section>
+    <section class="countries-two">
+
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js" integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ==" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+<script>
+    console.log(window.location.hash.replace("%20"," ").replace("#",""))
+   console.log(postCountries(countriesTwo,window.location.hash.replace("%20"," ").replace("#",""),createSecondPageDiv))
+</script>    
+</body>
+</html>

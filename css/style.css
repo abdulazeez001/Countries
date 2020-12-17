@@ -1,0 +1,124 @@
+/* .container{
+    margin: 0 10px 0 10px;
+} */
+body{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(200, 15%, 8%);
+}
+section{
+    padding: 10px 50px 10px 50px;
+}
+.top{
+    background-color: #fff;
+    box-shadow: 3px 3px 3px rgb(194, 193, 193);
+}
+#top-dark-mode{
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: none;
+}
+.top h4,.top p{
+   font-weight: bolder;
+   display: inline-block;
+} 
+.top p{
+    float: right;
+}
+.far {
+    margin-right: 5px;
+}
+.dark-mode{
+   cursor: pointer;
+}
+#dark-mode{
+    background-color: hsl(207, 26%, 17%);
+    color: hsl(0, 0%, 100%);
+}
+.search{
+    margin-top: 30px;
+}
+.search input{
+    margin-bottom: 20px;
+    width: 400px;
+}
+.search input ,.search select,.submit{
+    background-color: white;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 9px;
+    box-shadow: 3px 3px 10px 1px rgb(235, 233, 233);
+
+}
+.row button{
+    background-color: white;
+    border-width:  rgb(223, 222, 222);
+   
+    border-radius: 5px;
+    padding: 1px 15px;
+}
+
+#shadow{
+    background-color: hsl(209, 23%, 22%);
+    color: #fff;
+    box-shadow: none;
+}
+@media only screen and (min-width: 800px) {
+    
+    .search select{
+       
+        float: right;
+    }
+  }
+.search select{
+    font-weight: 500;
+    
+}
+nav{
+    width: 50%;
+    margin:auto; 
+  
+}
+.pagination{
+    width: 50%;
+    margin: auto;
+    text-align: center !important;
+}
+
+.countries div{ 
+    text-align: left;
+    width: 280px;
+    padding: 0px;
+    height: cover;
+    margin: 10px 1%;
+    display: inline-block;
+    box-shadow: 3px 3px 10px 1px rgb(235, 233, 233);
+}
+.row a{
+    font-size: larger !important;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}  
+a{
+    
+    text-decoration: none !important;
+}
+h6,span{
+    padding-left: 20px;
+}
+h6{
+    font-weight: 700;
+    margin-top: 25px;
+}
+select{
+   font-weight: 400;
+}
+p{
+    font-size: small;
+    font-weight: 400;
+}
+span{
+    font-weight: 600;
+}
+.pd p{
+    padding-left: 17px;
+}
